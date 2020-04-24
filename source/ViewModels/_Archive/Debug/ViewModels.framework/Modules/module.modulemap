@@ -1,0 +1,11 @@
+framework module ViewModels {
+  umbrella header "ViewModels.h"
+
+  export *
+  module * { export * }
+}
+
+module ViewModels.Swift {
+    header "ViewModels-Swift.h"
+    requires objc
+}
